@@ -2,5 +2,10 @@
 
 ### Rexo academy frontend using nextjs + tailwind + reduxjs
 
-
-###silam
+#### Setup TODOS:
+- [X] Initial scaffold
+- [X] Load Components
+- [ ] Initial Structure
+- [ ] Add reduxjs
+- [ ] Add authentication
+- [ ] Add authoriziation

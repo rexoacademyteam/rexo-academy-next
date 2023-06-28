@@ -2,7 +2,7 @@ import { ChatBubbleOvalLeftEllipsisIcon } from "@heroicons/react/24/outline";
 
 export default function MainBanner() {
   return (
-    <div className="container mx-auto pt-10 px-4">
+    <div className="container mx-auto pt-10 px-4 mt-6">
       <div className="flex flex-col-reverse md:flex-row gap-4 justify-around">
         <div className="flex-col justify-around align-middle mt-9">
           <p className="text-4xl font-extrabold mb-4 text-center md:text-start text-slate-800">

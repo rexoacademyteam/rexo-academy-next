@@ -1,4 +1,5 @@
-import {} from "@heroicons/react/24/outline";
+import { ClockIcon, CubeIcon, CurrencyDollarIcon, ShieldCheckIcon, UserGroupIcon } from "@heroicons/react/24/outline";
+
 
 const Speciality = () => {
   return (
@@ -8,7 +9,7 @@ const Speciality = () => {
                        items-center justify-center col-span-5 sm:col-span-3 md:col-span-2"
       >
         <div className="bg-indigo-400 text-center text-white w-14 h-14 md:w-[70px] md:h-[70px] rounded-3xl mb-3 mx-auto">
-          <span></span>
+          <span className="flex justify-center h-full w-full"><CubeIcon className="w-12 h-12 m-auto"/></span>
         </div>
         <span className="font-bold">کاربردی و پروژه محور</span>
       </div>
@@ -17,7 +18,7 @@ const Speciality = () => {
                        items-center justify-center col-span-5 sm:col-span-3 md:col-span-2"
       >
         <div className="bg-indigo-400 text-center text-white w-14 h-14 md:w-[70px] md:h-[70px] rounded-3xl mb-3 mx-auto">
-          <span></span>
+          <span className="flex justify-center h-full w-full"><ClockIcon className="w-12 h-12 m-auto"/></span>
         </div>
         <span className="font-bold">ویدیو کوتاه</span>
       </div>
@@ -26,7 +27,7 @@ const Speciality = () => {
                        items-center justify-center col-span-5 sm:col-span-3 md:col-span-2"
       >
         <div className="bg-indigo-400 text-center text-white w-14 h-14 md:w-[70px] md:h-[70px] rounded-3xl mb-3 mx-auto">
-          <span></span>
+          <span className="flex justify-center h-full w-full"><ShieldCheckIcon className="w-12 h-12 m-auto"/></span>
         </div>
         <span className="font-bold">تضمین کیفیت</span>
       </div>
@@ -35,7 +36,7 @@ const Speciality = () => {
                        items-center justify-center col-span-5 sm:col-span-3 md:col-span-2"
       >
         <div className="bg-indigo-400 text-center text-white w-14 h-14 md:w-[70px] md:h-[70px] rounded-3xl mb-3 mx-auto">
-          <span></span>
+          <span className="flex justify-center h-full w-full"><UserGroupIcon className="w-12 h-12 m-auto"/></span>
         </div>
         <span className="font-bold">پشتیبانی همیشگی</span>
       </div>
@@ -44,7 +45,7 @@ const Speciality = () => {
                        items-center justify-center col-span-5 sm:col-span-3 md:col-span-2"
       >
         <div className="bg-indigo-400 text-center text-white w-14 h-14 md:w-[70px] md:h-[70px] rounded-3xl mb-3 mx-auto">
-          <span></span>
+          <span className="flex justify-center h-full w-full"><CurrencyDollarIcon className="w-12 h-12 m-auto"/></span>
         </div>
         <span className="font-bold">تضمین بازگشت وجه</span>
       </div>

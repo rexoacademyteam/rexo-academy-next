@@ -1,18 +1,21 @@
 import MainBanner from "@/components/home/banner";
-import ProductBanner from "@/components/home/productBanner";
+import ProductSection from "@/components/home/product/section";
 import Speciality from "@/components/home/speciality";
 import Layout from "@/components/layouts";
 import Footer from "@/components/main/footer";
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
-      {/* Helmet Place */}
+      <Head>
+        <title>RexoAcademy | Home</title>
+      </Head>
       <Layout name="main">
         <MainBanner />
         <Speciality/>
-        <ProductBanner/>
-        <Footer/>
+        <hr />
+        <ProductSection/>
       </Layout>
     </>
   )

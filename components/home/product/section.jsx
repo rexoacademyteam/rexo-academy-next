@@ -11,11 +11,11 @@ const texts = {
 
 export default function ProductSection() {
     return (
-        <div className="container mx-auto py-2 my-8">
-            <div className="flex flex-col gap-8">
-                <ProductItem link="/courses/edit" scheme="blue" title="آموزش فوتوشاپ" photo="/assets/photoshop-banner-text.png" thumbnail="/assets/photoshop-banner-bg.png" caption={texts.game.caption} />
-                <ProductItem rev link="/courses/web" scheme="green" title="آموزش طراحی وبسایت" photo="/assets/web-banner-text.png" thumbnail="/assets/web-banner-bg.png" caption={texts.game.caption} />
-                <ProductItem link="/courses/game" scheme="rose" title="آموزش ساخت بازی" photo="/assets/game-banner-text.png" thumbnail="/assets/game-banner-bg.png" caption={texts.game.caption} />
+        <div className="container mx-auto max-w-7xl py-2 my-8">
+            <div className="flex flex-col gap-12">
+                <ProductItem link="/courses/edit" scheme="blue" title="آموزش فوتوشاپ" thumbnail="/assets/products/photoshop.png" caption={texts.game.caption} />
+                <ProductItem rev link="/courses/web" scheme="green" title="آموزش طراحی وبسایت" thumbnail="/assets/products/web.png" caption={texts.game.caption} />
+                <ProductItem link="/courses/game" scheme="rose" title="آموزش ساخت بازی" thumbnail="/assets/products/game.png" caption={texts.game.caption} />
             </div>
         </div>
     )

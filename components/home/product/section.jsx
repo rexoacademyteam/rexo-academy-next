@@ -11,7 +11,7 @@ const texts = {
 
 export default function ProductSection() {
     return (
-        <div className="container mx-auto max-w-7xl py-2 my-8">
+        <div className="py-2 my-8">
             <div className="flex flex-col gap-12">
                 <ProductItem link="/courses/edit" scheme="blue" title="آموزش فوتوشاپ" thumbnail="/assets/products/photoshop.png" caption={texts.game.caption} />
                 <ProductItem rev link="/courses/web" scheme="green" title="آموزش طراحی وبسایت" thumbnail="/assets/products/web.png" caption={texts.game.caption} />

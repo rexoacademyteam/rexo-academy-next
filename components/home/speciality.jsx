@@ -2,12 +2,12 @@ import { ClockIcon, CubeIcon, CurrencyDollarIcon, ShieldCheckIcon, UserGroupIcon
 
 const SpecialityItem = ({ title, icon }) => {
   return (
-    <div className="w-full sm:w-1/2 md:w-[12rem]">
+    <div className="w-1/2 md:w-[12rem]">
       <div
         className="w-4/5 mx-auto hover:bg-white hover:shadow-lg hover:scale-105 transition-all duration-100 hover:shadow-gray-300/50 cursor-pointer rounded-2xl flex flex-col
                 items-center justify-center py-6"
       >
-        <div className="bg-indigo-400 text-center text-white w-14 h-14 md:w-[70px] md:h-[70px] rounded-3xl mb-3 mx-auto">
+        <div className="bg-violet-400 text-center text-white w-14 h-14 md:w-[70px] md:h-[70px] rounded-3xl mb-3 mx-auto">
           <span className="flex justify-center h-full w-full">{icon}</span>
         </div>
         <span className="font-bold">{title}</span>

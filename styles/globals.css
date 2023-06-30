@@ -15,3 +15,117 @@
 .font-fa {
     font-family: Vazirmatn;
 }
+
+@layer components {
+    .btn {
+        @apply py-[.6rem] px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold text-lg bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all dark:focus:ring-offset-gray-800
+    }
+
+    .btn-sm {
+        @apply py-2 px-3 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold text-base
+    }
+
+    .btn-lg {
+        @apply py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold text-xl
+    }
+
+    .btn-block {
+        @apply w-full
+    }
+
+    .btn-pill {
+        @apply rounded-full
+    }
+
+    .btn-rose {
+        @apply  bg-rose-500 text-white hover:bg-rose-600 focus:outline-none focus:ring-2 focus:ring-rose-500 focus:ring-offset-2 transition-all dark:focus:ring-offset-gray-800
+    }
+
+    .btn-yellow {
+        @apply bg-yellow-500 text-white hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 transition-all dark:focus:ring-offset-gray-800
+    }
+
+    .btn-blue {
+        @apply bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all dark:focus:ring-offset-gray-800
+    }
+
+    .btn-sky {
+        @apply bg-sky-500 text-white hover:bg-sky-600 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2 transition-all dark:focus:ring-offset-gray-800
+    }
+
+    .btn-green {
+        @apply bg-green-500 text-white hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 transition-all dark:focus:ring-offset-gray-800
+    }
+
+    .btn-teal {
+        @apply bg-teal-500 text-white hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 transition-all dark:focus:ring-offset-gray-800
+    }
+
+    .btn-violet {
+        @apply bg-violet-500 text-white hover:bg-violet-600 focus:outline-none focus:ring-2 focus:ring-violet-500 focus:ring-offset-2 transition-all dark:focus:ring-offset-gray-800
+    }
+
+    .btn-indigo {
+        @apply bg-indigo-500 text-white hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition-all dark:focus:ring-offset-gray-800
+    }
+
+
+}
+
+@layer utilities {
+    .btn-rose.btn-outline {
+        @apply border-[.2rem] bg-white border-red-400 text-red-500 hover:text-white hover:bg-red-500 hover:border-red-500 focus:outline-none focus:ring-2 focus:ring-red-200 focus:ring-offset-2 transition-all dark:focus:ring-offset-gray-800
+    }
+
+    .btn-teal.btn-outline {
+        @apply border-[.2rem] bg-white border-teal-400 text-teal-500 hover:text-white hover:bg-teal-500 hover:border-teal-500 focus:outline-none focus:ring-2 focus:ring-teal-200 focus:ring-offset-2 transition-all dark:focus:ring-offset-gray-800
+    }
+
+    .btn-blue.btn-outline {
+        @apply border-[.2rem] bg-white border-blue-400 text-blue-500 hover:text-white hover:bg-blue-500 hover:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:ring-offset-2 transition-all dark:focus:ring-offset-gray-800
+    }
+
+    .btn-sky.btn-outline {
+        @apply border-[.2rem] bg-white border-sky-400 text-sky-500 hover:text-white hover:bg-sky-500 hover:border-sky-500 focus:outline-none focus:ring-2 focus:ring-sky-200 focus:ring-offset-2 transition-all dark:focus:ring-offset-gray-800
+    }
+
+    .btn-green.btn-outline {
+        @apply border-[.2rem] bg-white border-green-400 text-green-500 hover:text-white hover:bg-green-500 hover:border-green-500 focus:outline-none focus:ring-2 focus:ring-green-200 focus:ring-offset-2 transition-all dark:focus:ring-offset-gray-800
+    }
+
+    .btn-indigo.btn-outline {
+        @apply border-[.2rem] bg-white border-indigo-400 text-indigo-500 hover:text-white hover:bg-indigo-500 hover:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-200 focus:ring-offset-2 transition-all dark:focus:ring-offset-gray-800
+    }
+
+    .btn-violet.btn-outline {
+        @apply border-[.2rem] bg-white border-violet-400 text-violet-500 hover:text-white hover:bg-violet-500 hover:border-violet-500 focus:outline-none focus:ring-2 focus:ring-violet-200 focus:ring-offset-2 transition-all dark:focus:ring-offset-gray-800
+    }
+
+    .btn-rose.btn-ghost {
+        @apply bg-white text-red-500 hover:bg-red-100 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800
+    }
+
+    .btn-teal.btn-ghost {
+        @apply bg-white text-teal-500 hover:bg-teal-100 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800
+    }
+
+    .btn-blue.btn-ghost {
+        @apply bg-white text-blue-500 hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800
+    }
+
+    .btn-indigo.btn-ghost {
+        @apply bg-white text-indigo-500 hover:bg-indigo-100 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800
+    }
+
+    .btn-violet.btn-ghost {
+        @apply bg-white text-violet-500 hover:bg-violet-100 focus:outline-none focus:ring-2 focus:ring-violet-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800
+    }
+
+    .btn-sky.btn-ghost {
+        @apply bg-white text-sky-500 hover:bg-sky-100 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800
+    }
+
+    .btn.btn-grower {
+        @apply hover:scale-105
+    }
+}

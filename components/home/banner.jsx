@@ -20,16 +20,16 @@ export default function MainBanner() {
           <div className="flex flex-col md:flex-row justify-between items-center align-middle px-2 gap-4">
             <button
               type="button"
-              className="w-full py-2 px-3 inline-flex justify-center items-center gap-2 rounded-full border border-transparent font-semibold bg-indigo-500 text-white hover:bg-indigo-600 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition-all text-base dark:focus:ring-offset-gray-800"
-            >
-              بزن بریم!
-            </button>
-            <button
-              type="button"
-              className="w-full py-2 px-3 inline-flex justify-center items-center gap-2 rounded-full border border-indigo-500 ring-2 ring-indigo-500 font-semibold bg-white text-indigo-700 hover:shadow-lg hover:scale-105 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition-all text-base dark:focus:ring-offset-gray-800"
+              className="btn btn-indigo btn-outline btn-sm btn-pill btn-block btn-grower"
             >
               <ChatBubbleOvalLeftEllipsisIcon className="w-6 h-6" />
               مشاوره!
+            </button>
+            <button
+              type="button"
+              className="btn btn-indigo btn-sm btn-pill btn-block btn-grower"
+            >
+              بزن بریم!
             </button>
           </div>
         </div>

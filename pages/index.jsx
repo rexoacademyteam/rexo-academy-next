@@ -2,7 +2,6 @@ import MainBanner from "@/components/home/banner";
 import ProductSection from "@/components/home/product/section";
 import Speciality from "@/components/home/speciality";
 import Layout from "@/components/layouts";
-import Footer from "@/components/main/footer";
 import Head from "next/head";
 
 export default function Home() {

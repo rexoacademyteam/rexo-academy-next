@@ -2,19 +2,19 @@ import { ChatBubbleOvalLeftEllipsisIcon } from "@heroicons/react/24/outline";
 
 export default function MainBanner() {
   return (
-    <div className="container mx-auto pt-10 px-4 mt-6">
-      <div className="flex flex-col-reverse md:flex-row gap-4 justify-around">
-        <div className="flex-col justify-around align-middle mt-9">
+    <div className="pt-10 px-4 mt-6">
+      <div className="flex flex-col-reverse md:flex-row gap-4 justify-between">
+        <div className="flex-col justify-around mt-9">
           <p className="text-4xl font-extrabold mb-4 text-center md:text-start text-slate-800">
             برنامه نویسی رو آسون یاد بگیر!
           </p>
-          <p className="text-slate-500 m-auto text-center md:text-start">
+          <p className="text-slate-500 m-auto text-xl text-center md:text-start">
             ما کنارتون هستیم تا زمانی که به رویاهاتون برسید
           </p>
-          <p className="text-slate-500 m-auto text-center md:text-start">
+          <p className="text-slate-500 m-auto text-xl text-center md:text-start">
             آموزش هدفمند، پروژه محور و جامع برنامه نویسی همراه با پشتیبانی دائمی
           </p>
-          <p className="text-slate-500 m-auto text-center md:text-start mb-4">
+          <p className="text-slate-500 m-auto text-xl text-center md:text-start mb-4">
             با ما همراه باشید
           </p>
           <div className="flex flex-col md:flex-row justify-between items-center align-middle px-2 gap-4">

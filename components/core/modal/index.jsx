@@ -15,9 +15,9 @@ export default function Modal({ open, children, onClose }) {
     }
 
     return (
-        <div onClick={onClose} class={overlay}>
-            <div onClick={onVoid} class="opacity-100 duration-500 transition-all sm:max-w-lg sm:w-full m-3 sm:mx-auto">
-                <div class="flex flex-col bg-white border shadow-sm rounded-xl dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7]">
+        <div onClick={onClose} className={overlay}>
+            <div onClick={onVoid} className="opacity-100 duration-500 transition-all sm:max-w-lg sm:w-full m-3 sm:mx-auto">
+                <div className="flex flex-col bg-white border shadow-sm rounded-xl dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7]">
                     {children}
                 </div>
             </div>

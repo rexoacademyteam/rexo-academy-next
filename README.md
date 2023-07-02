@@ -13,5 +13,3 @@
 - [ ] Setup middleware
 - [ ] Basic Components
 - [ ] Storybook
-- [ ] finalizing
-- [ ] packaging 

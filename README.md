@@ -9,3 +9,7 @@
 - [ ] Add reduxjs
 - [ ] Add authentication
 - [ ] Add authoriziation
+- [ ] Add guard
+- [ ] Setup middleware
+- [ ] Basic Components
+- [ ] Storybook

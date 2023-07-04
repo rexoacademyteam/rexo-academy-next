@@ -2,8 +2,8 @@ import { useState } from "react";
 import { BookOpenIcon, LinkIcon, QuestionMarkCircleIcon, ArrowDownOnSquareIcon, XMarkIcon, Bars3Icon, ArrowRightOnRectangleIcon, ShoppingCartIcon } from '@heroicons/react/24/outline'
 
 const links = [
-    { name: "دوره های آموزشی", href: "#", logo: (<BookOpenIcon className="w-6 h-6" />) },
-    { name: "چرا رکسو؟", href: "#", logo: (<QuestionMarkCircleIcon className="w-6 h-6" />) },
+    { name: "دوره های آموزشی", href: "courses", logo: (<BookOpenIcon className="w-6 h-6" />) },
+    { name: "چرا رکسو؟", href: "whyRexo", logo: (<QuestionMarkCircleIcon className="w-6 h-6" />) },
     { name: "ارتباط با ما", href: "#", logo: (<LinkIcon className="w-6 h-6" />) },
     { name: "ثبت سفارش", href: "#", logo: (<ArrowDownOnSquareIcon className="w-6 h-6" />) },
 ]
@@ -67,8 +67,10 @@ export default function Header() {
                 </div>
 
                 <div className="cursor-pointer flex items-center">
-                    <img src="/assets/brand_logo.png" className="hidden w-[80px] md:block" alt="logo" />
+                   <a href="/">
+                   <img src="/assets/brand_logo.png" className="hidden w-[80px] md:block" alt="logo" />
                     <img src="/assets/brand_purelogo.png" className="md:hidden w-[50px] h-[30px]" alt="logo2" />
+                   </a>
                     <div className="md:hidden ps-4 pt-1">
                         <button onClick={handleMenuClick}>
                             {isOpen ? <XMarkIcon className="w-10 h-10" /> : <Bars3Icon className="w-10 h-10" />}

@@ -15,6 +15,10 @@
 .font-fa {
     font-family: Vazirmatn;
 }
+.activeTab{
+    background-color: rgb(99, 102, 241);
+    color: white;
+}
 
 @layer components {
     .btn {

@@ -133,3 +133,8 @@
         @apply hover:scale-105
     }
 }
+
+iframe {
+    padding: 0;
+    outline: none;
+}

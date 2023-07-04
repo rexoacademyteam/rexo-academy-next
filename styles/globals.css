@@ -136,5 +136,5 @@
 
 iframe {
     padding: 0;
-    outline: none;
+    outline: none!important;
 }

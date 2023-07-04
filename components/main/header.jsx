@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { BookOpenIcon, LinkIcon, QuestionMarkCircleIcon, ArrowDownOnSquareIcon, XMarkIcon, Bars3Icon, ArrowRightOnRectangleIcon, ShoppingCartIcon } from '@heroicons/react/24/outline'
+import Link from "next/link";
 
 const links = [
     { name: "دوره های آموزشی", href: "courses", logo: (<BookOpenIcon className="w-6 h-6" />) },
@@ -56,10 +57,10 @@ export default function Header() {
                         <ShoppingCartIcon className="w-6 h-6" />
                     </button>
 
-                    <button type="button" className="mx-2 btn btn-sm btn-indigo btn-pill">
+                    <Link href="/accounts/login" className="mx-2 btn btn-sm btn-indigo btn-pill">
                         <ArrowRightOnRectangleIcon className="w-6 h-6" />
                         <span>ورود</span>
-                    </button>
+                    </Link>
                 </div>
 
                 <div className={`md:flex justify-around ${isOpen ? "flex" : "hidden"} w-auto`}>

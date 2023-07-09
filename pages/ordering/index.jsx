@@ -1,14 +1,17 @@
-import { ToastContainer , toast} from "react-toastify";
+import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
 const Ordering = () => {
-    const clickHandler = (e) => {
-        e.preventDefault();
-        toast.success("درخواست شما ثبت شد");
-        position: toast.POSITION.TOP_RIGHT
-    }
+  const clickHandler = (e) => {
+    e.preventDefault();
+    toast.success("درخواست شما ثبت شد", {
+      position: toast.POSITION.BOTTOM_CENTER
+    });
+
+  }
+
   return (
-    <div className="bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 w-full h-full p-6">
+    <div className="bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 w-full h-screen p-6">
       <div className="w-[300px] md:w-[400px] h-auto mx-auto p-4 pb-2 bg-white rounded-xl">
         <h1 className="text-gray-700 font-bold text-center text-lg">
           ثبت سفارش
@@ -16,7 +19,7 @@ const Ordering = () => {
 
         <form className="w-full max-w-lg mt-6">
           <div className="flex flex-wrap -mx-3 mb-6">
-            <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+            {/* <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
               <label
                 className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                 htmlFor="grid-username"
@@ -29,8 +32,8 @@ const Ordering = () => {
                 type="text"
                 placeholder="John"
               />
-            </div>
-            <div className="w-full md:w-1/2 px-3">
+            </div> */}
+            {/* <div className="w-full md:w-1/2 px-3">
               <label
                 className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                 htmlFor="grid-password"
@@ -43,7 +46,7 @@ const Ordering = () => {
                 type="password"
                 placeholder="*******"
               />
-            </div>
+            </div> */}
           </div>
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full px-3">
@@ -88,8 +91,8 @@ const Ordering = () => {
               ></textarea>
             </div>
             <div className="w-full px-3">
-            <button className="btn-lg btn-indigo w-full" onClick={clickHandler}>ثبت درخواست</button>
-            <ToastContainer/>
+              <button className="btn-lg btn-indigo w-full" onClick={clickHandler}>ثبت درخواست</button>
+              <ToastContainer />
             </div>
           </div>
         </form>

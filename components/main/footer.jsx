@@ -8,18 +8,18 @@ import {
 const links = [
   {
     name: "دوره های آموزشی",
-    href: "#",
+    href: "courses",
     logo: <BookOpenIcon className="w-6 h-6" />,
   },
   {
     name: "چرا رکسو؟",
-    href: "#",
+    href: "whyRexo",
     logo: <QuestionMarkCircleIcon className="w-6 h-6" />,
   },
   { name: "ارتباط با ما", href: "#", logo: <LinkIcon className="w-6 h-6" /> },
   {
     name: "ثبت سفارش",
-    href: "#",
+    href: "ordering",
     logo: <ArrowDownOnSquareIcon className="w-6 h-6" />,
   },
 ];

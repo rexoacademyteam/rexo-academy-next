@@ -6,7 +6,7 @@ const links = [
     { name: "دوره های آموزشی", href: "courses", logo: (<BookOpenIcon className="w-6 h-6" />) },
     { name: "چرا رکسو؟", href: "whyRexo", logo: (<QuestionMarkCircleIcon className="w-6 h-6" />) },
     { name: "ارتباط با ما", href: "#", logo: (<LinkIcon className="w-6 h-6" />) },
-    { name: "ثبت سفارش", href: "#", logo: (<ArrowDownOnSquareIcon className="w-6 h-6" />) },
+    { name: "ثبت سفارش", href: "ordering", logo: (<ArrowDownOnSquareIcon className="w-6 h-6" />) },
 ]
 
 const MobileNav = () => {
@@ -55,6 +55,7 @@ export default function Header() {
                 <div className={`flex justify-around ${isOpen ? "block" : ""}`}>
                     <button>
                         <ShoppingCartIcon className="w-6 h-6" />
+                        <span className="rounded-[100%] bg-[#ff0000] text-white w-[20px] h-[20px] text-center text-sm p-[2px] absolute top-2 right-0 md:top-1 md:right-[2px]">{0}</span>
                     </button>
 
                     <Link href="/accounts/login" className="mx-2 btn btn-sm btn-indigo btn-pill">

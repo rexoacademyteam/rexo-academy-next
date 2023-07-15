@@ -33,7 +33,7 @@ export default function LoginPage() {
     return (
         <Layout name="accounts">
             <div className="flex justify-center py-4 px-4">
-                <div className="w-full md:w-96 bg-slate-100 shadow-md rounded-xl px-4 py-4">
+                <div className="w-full md:w-96 bg-slate-100 shadow-lg rounded-xl px-4 py-4">
                     <h1 className="text-center text-4xl">ورود</h1>
                     <form onSubmit={formik.handleSubmit} className="flex flex-col gap-2 pt-6">
                         <input name="username" onBlur={formik.onBlur} onChange={formik.handleChange} type="text" className="input text-center" placeholder="نام کاربری/ایمیل" />

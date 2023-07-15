@@ -67,17 +67,17 @@ export default function Footer() {
         <div>
           <div className="w-full py-4">
             <div className="flex flex-col gap-4">
-                <p className="text-center font-bold text-gray-800 border-b-2 border-indigo-800 text-2xl pb-4">بخش های سایت</p>
+                <h1 className="text-center font-bold text-gray-800 border-b-2 border-indigo-800 text-2xl pb-4">بخش های سایت</h1>
 
                 {links
                   ? links.map((link, i) => (
                       <a
                         key={i}
                         href={link.href}
-                        className="flex justify-center rounded-xl pr-3 md:p-1 hover:text-indigo-600 cursor-pointer"
+                        className="flex gap-x-2 justify-center md:justify-start rounded-xl pr-3 md:p-1 hover:text-indigo-600 cursor-pointer"
                       >
                         {link.logo}
-                        <h1 className="text-lg text-center lg:text-start">{link.name}</h1>
+                        <h1 className="text-lg">{link.name}</h1>
                       </a>
                     ))
                   : null}

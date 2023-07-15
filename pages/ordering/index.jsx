@@ -12,7 +12,8 @@ const Ordering = () => {
   const clickHandler = (e) => {
     e.preventDefault();
     toast.success("درخواست شما ثبت شد", {
-      position: toast.POSITION.TOP_CENTER
+      position: "top-center",
+      className: "rtl font-fa font-semibold"
     });
 
   }
@@ -21,7 +22,7 @@ const Ordering = () => {
     <>
       <div className="bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 w-full h-screen py-6 px-2 md:px-6">
         <div className="container mx-auto max-w-7xl my-4">
-          <div className="flex justify-end">
+          <div className="flex justify-start">
             <button onClick={handleBack} className="btn btn-yellow">بازگشت</button>
           </div>
         </div>

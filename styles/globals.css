@@ -13,8 +13,13 @@
 }
 
 .font-fa {
-    font-family: Vazirmatn;
+    font-family: Vazirmatn!important;
 }
+
+.rtl {
+    direction: rtl!important;
+}
+
 .activeTab{
     background-color: rgb(99, 102, 241);
     color: white;

@@ -7,7 +7,7 @@ const nextConfig = {
   },
   env: {
     BASEAPI: process.env.BASEAPI,
-    CAPTCHA_SITEKEY: process.env.BASEAPI,
+    CAPTCHA_SITEKEY: process.env.CAPTCHA_SITEKEY,
 
   }
 }

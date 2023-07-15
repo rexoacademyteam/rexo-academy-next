@@ -13,9 +13,7 @@ export default function Home() {
       <Layout name="main">
         <MainBanner />
         <Speciality/>
-        <hr />
         <ProductSection/>
-
       </Layout>
     </>
   )

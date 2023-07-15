@@ -39,7 +39,7 @@ export default function LoginPage() {
                         <input name="username" onBlur={formik.onBlur} onChange={formik.handleChange} type="text" className="input text-center" placeholder="نام کاربری/ایمیل" />
                         <input name="password" onBlur={formik.onBlur} onChange={formik.handleChange} type="password" className="input text-center" placeholder="رمز عبور" />
                         <div className="flex justify-center">
-                            <HCaptcha ref={ref} size="normal" sitekey="cc5168dc-8287-494a-a88d-63be027fed1f" onVerify={key => setCaptcha(key)} />
+                            <HCaptcha ref={ref} size="normal"  sitekey={publicRuntimeConfig.CAPTCHA_SITEKEY} onVerify={key => setCaptcha(key)} />
                         </div>
                         <button className="btn btn-indigo text-lg py-2" type="submit">
                             ورود

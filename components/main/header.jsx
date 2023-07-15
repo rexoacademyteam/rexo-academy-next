@@ -19,7 +19,7 @@ const MobileNav = () => {
             <div className="flex flex-col items-center gap-4">
                 {
                     links ? links.map((link, i) => (
-                        <Link key={i} href={link.href} className="ml-5 rounded-xl p-1 hover:text-[#6b36cc] cursor-pointer inline-flex">
+                        <Link key={i} href={link.href} className="ml-5 rounded-xl p-1 hover:text-[#6b36cc] cursor-pointer inline-flex hover:underline">
                             {link.logo}
                             <span className="mr-1">{link.name}</span>
                         </Link>

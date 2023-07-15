@@ -5,18 +5,18 @@ export default function MainBanner() {
     <div className="pt-10 px-4 mt-6">
       <div className="flex flex-col-reverse md:flex-row gap-4 justify-between container mx-auto">
         <div className="flex-col justify-around mt-9">
-          <p className="text-4xl font-extrabold mb-4 text-center md:text-start text-slate-800">
+          <h1 className="text-3xl md:text-4xl font-extrabold mb-4 text-center md:text-start text-slate-800">
             برنامه نویسی رو آسون یاد بگیر!
-          </p>
-          <p className="text-slate-500 m-auto text-sm md:text-xl text-center md:text-start">
+          </h1>
+          <h1 className="text-slate-500 m-auto text-lg md:text-2xl text-center md:text-start">
             ما کنارتون هستیم تا زمانی که به رویاهاتون برسید
-          </p>
-          <p className="text-slate-500 m-auto text-sm md:text-xl text-center md:text-start">
+          </h1>
+          <h1 className="text-slate-500 m-auto text-lg md:text-2xl text-center md:text-start">
             آموزش هدفمند، پروژه محور و جامع برنامه نویسی همراه با پشتیبانی دائمی
-          </p>
-          <p className="text-slate-500 m-auto text-sm md:text-xl text-center md:text-start mb-4">
+          </h1>
+          <h1 className="text-slate-500 m-auto text-lg md:text-xl text-center md:text-start mb-4">
             با ما همراه باشید
-          </p>
+          </h1>
           <div className="flex flex-col md:flex-row justify-between items-center align-middle px-2 gap-4">
             <button
               type="button"
@@ -33,12 +33,16 @@ export default function MainBanner() {
             </button>
           </div>
         </div>
-        <div>
+        <div className="relative">
           <img
             src="/assets/main_section_banner.png"
-            className="w-[400px] m-auto"
+            className="w-[400px] m-auto shadow-lg rounded-xl bg-gray-50"
             alt="main-banner"
           />
+          <div className="-z-40 absolute -top-5 bottom-0 start-0 end-0 flex justify-center">
+            <div className=" w-[35rem] h-80 bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 rounded-full blur-2xl opacity-70"></div>
+
+          </div>
         </div>
       </div>
     </div>

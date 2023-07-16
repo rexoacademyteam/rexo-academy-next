@@ -8,10 +8,10 @@ export default function MainBanner() {
           <h1 className="text-3xl md:text-4xl font-extrabold mb-4 text-center md:text-start text-slate-800">
             برنامه نویسی رو آسون یاد بگیر!
           </h1>
-          <h1 className="text-slate-500 m-auto text-lg md:text-2xl text-center md:text-start">
+          <h1 className="text-slate-500 m-auto text-lg md:text-xl text-center md:text-start">
             ما کنارتون هستیم تا زمانی که به رویاهاتون برسید
           </h1>
-          <h1 className="text-slate-500 m-auto text-lg md:text-2xl text-center md:text-start">
+          <h1 className="text-slate-500 m-auto text-lg md:text-xl text-center md:text-start">
             آموزش هدفمند، پروژه محور و جامع برنامه نویسی همراه با پشتیبانی دائمی
           </h1>
           <h1 className="text-slate-500 m-auto text-lg md:text-xl text-center md:text-start mb-4">

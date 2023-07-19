@@ -54,13 +54,13 @@ export default function Header() {
     };
 
     return (
-        <header className="sticky top-0 start-0 end-0 px-3 py-4 bg-gray-100 shadow-md bg-base-100 z-30">
+        <header className="sticky top-0 start-0 end-0 px-3 py-2 bg-gray-100 shadow-md bg-base-100 z-30">
             <div className="flex justify-between items-center align-center max-w-7xl mx-auto">
                 <div className={`flex justify-around ${isOpen ? "block" : ""}`}>
                     <button>
-                        <Link className="relative inline-flex flex-shrink-0 justify-center items-center h-12 w-12 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800" href="/accounts/shopping">
+                        <Link className="relative inline-flex flex-shrink-0 justify-center items-center h-12 w-12 rounded-md font-medium text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800" href="/accounts/shopping">
                             <ShoppingCartIcon className="w-6 h-6" />
-                            <span className="absolute top-0 right-0 inline-flex items-center py-0.5 px-1.5 rounded-full text-xs font-medium transform -translate-y-1/2 translate-x-1/2 bg-rose-500 text-white">99+</span>
+                            <span className="absolute top-0 right-0 inline-flex items-center justify-center align-middle w-6 h-6 rounded-full text-xs font-medium transform -translate-y-1 translate-x-1 bg-rose-500 text-white text-center">99</span>
                         </Link>
                     </button>
 

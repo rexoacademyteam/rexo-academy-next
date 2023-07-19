@@ -3,7 +3,17 @@ import {
   LinkIcon,
   QuestionMarkCircleIcon,
   ArrowDownOnSquareIcon,
+  ChevronDoubleUpIcon,
 } from "@heroicons/react/24/outline";
+
+
+
+
+const clickHandler = () => {
+  
+}
+
+
 
 const links = [
   {
@@ -25,7 +35,8 @@ const links = [
 ];
 export default function Footer() {
   return (
-    <div className="bg-gray-100 rounded-tl-2xl rounded-tr-2xl h-auto flex flex-col md:flex-row">
+    <div>
+      <div className="bg-gray-100 rounded-tl-2xl rounded-tr-2xl h-auto hidden sm:flex sm:flex-row">
       <div className=" block md:flex md:justify-around md:align-middl container mx-auto pt-6 pb-6">
         <div className="flex-col justify-around align-middle">
           <div className="flex flex-col lg:flex-row justify-center items-center">
@@ -43,7 +54,7 @@ export default function Footer() {
               <h1 className="text-lg text-center md:text-start">آموزش برنامه نویسی | فوتوشاپ | پروژه محور | پشتیبانی دائمی</h1>
             </div>
           </div>
-          <div className="w-full md:max-w-lg w-auto p-3 md:w-full mt-5">
+          <div className="md:max-w-lg w-auto p-3 md:w-full mt-5">
             <p className="text-base text-center md:text-start mb-4 md:mb-2 text-gray-700">
               هدف آکادمی رکسو ارائه بهترین دوره های آموزش برنامه نویسی و فوتوشاپ به
               دانشجویان برای ورود به بازار کار است و برای رسیدن به این هدف یک
@@ -86,6 +97,46 @@ export default function Footer() {
         </div>
         <div>گلدون 2</div>
       </div>
+    </div>
+    <div className="block sm:hidden">
+      
+<div class="fixed z-50 w-full h-16 max-w-lg -translate-x-1/2 bg-white border border-gray-200 rounded-full bottom-4 left-1/2 dark:bg-gray-700 dark:border-gray-600">
+    <div class="grid h-full max-w-lg grid-cols-5 mx-auto">
+        <button data-tooltip-target="tooltip-home" type="button" class="inline-flex flex-col items-center justify-center px-5 rounded-l-full hover:bg-gray-50 dark:hover:bg-gray-800 group">
+        <BookOpenIcon className="w-8 h-8" />
+        </button>
+        <div id="tooltip-home" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+          
+        </div>
+        <button data-tooltip-target="tooltip-wallet" type="button" class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group">
+           
+            <QuestionMarkCircleIcon className="w-8 h-8" />
+            
+        </button>
+        <div id="tooltip-wallet" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        </div>
+        <div class="flex items-center justify-center">
+            <button data-tooltip-target="tooltip-new" type="button" onClick={clickHandler} class="inline-flex items-center justify-center w-10 h-10 font-medium bg-blue-600 rounded-full hover:bg-blue-700 group focus:ring-4 focus:ring-blue-300 focus:outline-none dark:focus:ring-blue-800">
+                    <ChevronDoubleUpIcon className="w-7 h-7 text-white"/>
+            </button>
+        </div>
+        <div id="tooltip-new" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        </div>
+        <button data-tooltip-target="tooltip-settings" type="button" class="inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 dark:hover:bg-gray-800 group">
+        <ArrowDownOnSquareIcon className="w-8 h-8" />
+        </button>
+        <div id="tooltip-settings" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        </div>
+        <button data-tooltip-target="tooltip-profile" type="button" class="inline-flex flex-col items-center justify-center px-5 rounded-r-full hover:bg-gray-50 dark:hover:bg-gray-800 group">
+        <LinkIcon className="w-8 h-8" />
+  
+        </button>
+        <div id="tooltip-profile" role="tooltip" class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+        </div>
+    </div>
+</div>
+
+    </div>
     </div>
   );
 }

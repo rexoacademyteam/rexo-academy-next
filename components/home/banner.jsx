@@ -5,7 +5,7 @@ export default function MainBanner() {
     <div className="pt-10 px-4 mt-6">
       <div className="flex flex-col-reverse md:flex-row gap-4 justify-between container mx-auto">
         <div className="flex-col justify-around mt-9">
-          <h1 className="text-3xl md:text-4xl font-extrabold mb-4 text-center md:text-start text-slate-800">
+          <h1 className="text-2xl md:text-3xl font-extrabold mb-4 text-center md:text-start text-slate-800">
             برنامه نویسی رو آسون یاد بگیر!
           </h1>
           <h1 className="text-slate-500 m-auto text-lg md:text-xl text-center md:text-start">

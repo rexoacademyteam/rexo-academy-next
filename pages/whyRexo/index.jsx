@@ -1,11 +1,12 @@
 import MainLayout from "@/components/layouts/main";
-import Paper from "@/components/core/paper";
+
 
 const WhyRexo = () => {
     return ( 
         <MainLayout>
-            <Paper>
-                    <h1 className="text-center text-xl md:text-3xl text-gray-700 font-bold my-6">شاید براتون سوال شده باشه چرا رکسو؟</h1>
+           
+              <div className="container mx-auto my-10">
+              <h1 className="text-center text-xl md:text-3xl text-gray-700 font-bold my-6">شاید براتون سوال شده باشه چرا رکسو؟</h1>
                     <img src="./assets/AboutUs.png" alt="About-us" className="p-4 mb-7" />
                     <h2 className="text-lg font-bold text-[#ff0000] mt-5 mb-1">Resourceful</h2>
                     <h1 className="">به معنای کاردان خوش فکر، مبتکر که همیشه سعی ما بر این بوده در صورتی در زمینه ای ادعا کنیم که در آن به توانایی کامل رسیده باشیم و تلاش به پیشرفت را سرلوحه خود قرار دهیم. با ذهنیتی مبتکر و متفکر پا به این عرصه قرار دادیم تا تحولی شگرف در زمینه بهبود دانش الکترونیک و کامپیوتری کشور برداریم.</h1>
@@ -17,7 +18,7 @@ const WhyRexo = () => {
                     <h2 className="text-lg font-bold text-yellow-300 mt-4 mb-1">Optimistic</h2>
                     <h1>خودباوری و امید به آینده ای بهتر همیشه اولین آخریم دلیل ما برای ادامه دادن است. هیچ چیز در مقابل این حس نمی تواند مقابله مگر اینکه به ایمان نرسیده باشد. پس ایمان داشته باشید. ایمانی که هر ثانیه می گوید ما می توانیم.</h1>
 
-            </Paper>
+              </div>
         </MainLayout>
      );
 }

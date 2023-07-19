@@ -36,12 +36,9 @@ export default function MainBanner() {
         <div className="relative">
           <img
             src="/assets/main_section_banner.png"
-            className="w-[400px] m-auto shadow-lg rounded-xl bg-gray-50"
+            className="w-[400px] m-auto"
             alt="main-banner"
           />
-          <div className="-z-40 absolute -top-5 bottom-0 start-0 end-0 flex justify-center">
-            <div className=" w-[35rem] h-80 bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 rounded-full blur-2xl opacity-70"></div>
-          </div>
         </div>
       </div>
     </div>

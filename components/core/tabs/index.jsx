@@ -20,7 +20,7 @@ const Tabs = ({ children, defaultActive=0 }) => {
             </div>
             <div className="flex justify-around gap-2 w-3/4 mx-auto mb-8">
                 {Children.toArray(children).map((child, i) => {
-                    if (i == activeKey) {
+                    if (i === activeKey) {
                         return (<Fragment key={i}>{child.props.children}</Fragment>)
                     }
                     return (<Fragment key={i}></Fragment>)

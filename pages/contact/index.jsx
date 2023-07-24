@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const contactWays = [
   { image: "assets/instagram.png", title: "اینستاگرام", href: "" },
-  { image: "assets/youtube.webp", title: "یوتیوب", href: "", },
-  { image: "assets/telegram.webp", title: "کانال تلگرام", href: "" },
+  { image: "assets/youtube.png", title: "یوتیوب", href: "", },
+  { image: "assets/telegram.png", title: "کانال تلگرام", href: "" },
   { image: "assets/github.png", title: "گیت هاب", href: "" },
   { image: "assets/call.png", title: "تماس", href: "" },
   { image: "assets/gmail.png", title: "ایمیل", href: "" },

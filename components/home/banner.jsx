@@ -25,12 +25,13 @@ export default function MainBanner() {
               <ChatBubbleOvalLeftEllipsisIcon className="w-6 h-6" />
               مشاوره!
             </button>
+            <a href="courses" className="btn btn-indigo btn-lg btn-pill btn-block btn-grower">
             <button
               type="button"
-              className="btn btn-indigo btn-lg btn-pill btn-block btn-grower"
             >
               بزن بریم!
             </button>
+            </a>
           </div>
         </div>
         <div className="relative">

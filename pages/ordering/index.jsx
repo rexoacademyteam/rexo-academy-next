@@ -20,13 +20,13 @@ const Ordering = () => {
 
   return (
     <>
-      <div className="bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 w-full h-screen py-6 px-2 md:px-6">
+      <div className="bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 w-full h-[100%] py-2 px-2 md:px-6">
         <div className="container mx-auto max-w-7xl my-4">
           <div className="flex justify-start">
             <button onClick={handleBack} className="btn btn-yellow">بازگشت</button>
           </div>
         </div>
-        <div className="w-full md:w-[600px] h-auto mx-auto p-4 pb-2 bg-white rounded-xl">
+        <div className="md:w-[600px] h-auto mx-auto p-4 pb-2 bg-white rounded-xl">
           <h1 className="text-gray-700 font-bold text-center text-2xl">
             ثبت سفارش
           </h1>

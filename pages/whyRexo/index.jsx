@@ -5,7 +5,7 @@ const WhyRexo = () => {
     return ( 
         <MainLayout>
            
-              <div className="container mx-auto my-10">
+              <div className="container mx-auto my-10 px-2 pb-16">
               <h1 className="text-center text-xl md:text-3xl text-gray-700 font-bold my-6">شاید براتون سوال شده باشه چرا رکسو؟</h1>
                     <img src="./assets/AboutUs.png" alt="About-us" className="p-4 mb-7" />
                     <h2 className="text-lg font-bold text-[#ff0000] mt-5 mb-1">Resourceful</h2>
